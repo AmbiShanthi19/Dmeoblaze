@@ -5,10 +5,12 @@
     <classes>
       <class name="test.TC_001SignupTest">
         <methods>
-          <include name="closeBrowser"/>
+          <include name="testDetails"/>
           <include name="launchingBrowserandLoadingURL"/>
+          <include name="closeBrowser"/>
           <include name="reportIniatialization"/>
           <include name="setup"/>
+          <include name="reportClose"/>
           <include name="SignupTest"/>
         </methods>
       </class> <!-- test.TC_001SignupTest -->
