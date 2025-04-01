@@ -5,78 +5,17 @@
   <parameter name="url" value="https://www.demoblaze.com/"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.TC_006PurchaseTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testDetails"/>
-          <include name="launchingBrowserandLoadingURL"/>
-          <include name="setup"/>
-          <include name="Purchase"/>
-          <include name="reportIniatialization"/>
-          <include name="reportClose"/>
-        </methods>
-      </class> <!-- test.TC_006PurchaseTest -->
-      <class name="test.TC_004ProductdetailsandAddtocartTest">
-        <methods>
-          <include name="testDetails"/>
-          <include name="launchingBrowserandLoadingURL"/>
-          <include name="setup"/>
-          <include name="reportIniatialization"/>
-          <include name="ProductPage"/>
-          <include name="reportClose"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- test.TC_004ProductdetailsandAddtocartTest -->
-      <class name="test.TC_007LogoutTest">
-        <methods>
-          <include name="setup"/>
-          <include name="testDetails"/>
-          <include name="loginandlogoutTest"/>
-          <include name="launchingBrowserandLoadingURL"/>
-          <include name="reportIniatialization"/>
-          <include name="closeBrowser"/>
-          <include name="reportClose"/>
-        </methods>
-      </class> <!-- test.TC_007LogoutTest -->
-      <class name="test.TC_001SignupTest">
-        <methods>
-          <include name="testDetails"/>
-          <include name="launchingBrowserandLoadingURL"/>
-          <include name="closeBrowser"/>
-          <include name="reportIniatialization"/>
-          <include name="setup"/>
-          <include name="reportClose"/>
-          <include name="SignupTest"/>
-        </methods>
-      </class> <!-- test.TC_001SignupTest -->
       <class name="test.TC_005CartFunctionalityTest">
         <methods>
           <include name="setup"/>
+          <include name="closeBrowser"/>
           <include name="testDetails"/>
-          <include name="cartPage"/>
           <include name="launchingBrowserandLoadingURL"/>
+          <include name="cartPage"/>
           <include name="reportIniatialization"/>
           <include name="reportClose"/>
-          <include name="closeBrowser"/>
         </methods>
       </class> <!-- test.TC_005CartFunctionalityTest -->
-      <class name="test.TC_002LoginTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="reportClose"/>
-        </methods>
-      </class> <!-- test.TC_002LoginTest -->
-      <class name="test.TC_003ProductCategoriesanddisplayTest">
-        <methods>
-          <include name="ProductCategories"/>
-          <include name="closeBrowser"/>
-          <include name="testDetails"/>
-          <include name="launchingBrowserandLoadingURL"/>
-          <include name="reportIniatialization"/>
-          <include name="setup"/>
-          <include name="reportClose"/>
-        </methods>
-      </class> <!-- test.TC_003ProductCategoriesanddisplayTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
